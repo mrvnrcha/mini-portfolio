@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Mini Portfólio</title>
+</head>
+
+<body>
+    <main class="card">
+        <div class="infos">
+            <img src="./src/images/profile-photo.jpg" alt="foto de perfil">
+            <h1 class="name"> Marvin Rocha</h1>
+            <h2 class="job-description">Desenvolvedor Front-end Júnior</h2>
+        </div>
+
+        <div class="content">
+            <ul class="tabs">
+                <li class="tab selected" id="about-me">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 9.5H3M21 4.5H3M21 14.5H3M21 19.5H3" />
+                    </svg>
+                </li>
+
+                <li class="tab" id="social-media">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5.52 19c.64-2.2 1.84-3 3.22-3h6.52c1.38 0 2.58.8 3.22 3" />
+                        <circle cx="12" cy="10" r="3" />
+                        <circle cx="12" cy="12" r="10" />
+                    </svg>
+                </li>
+            </ul>
+            <div class="info-tabs">
+                <div class="info selected" id="info-about-me">
+                    <h3 class="subtitle"><strong>Sobre</strong></h3>
+
+                    <div class="description">
+                        <p>Olá, seja bem-vindo(a)!</p>
+                        <br>
+
+                        <p> Sou apaixonado por tecnologia desde cedo. Tenho como base de estudo <span>HTML, CSS,
+                                JavaScript e React</span> e já uso <span>Google Apps Script</span> para construir
+                            códigos. </p>
+                        <br>
+                        Gosto de experimentar novas receitas, beber café e jogar Valorant.</p>
+                    </div>
+                </div>
+                <div class="info" id="info-social-media">
+                    <h3 class="subtitle"><strong>Minhas redes</strong></h3>
+                    <ul class="social-media">
+
+                        <li>
+                            <a href="https://www.linkedin.com/in/mrvnrcha/">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/mrvnrcha">Github</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./src/index.js"></script>
+</body>
+
+</html>
